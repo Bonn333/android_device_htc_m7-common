@@ -293,14 +293,15 @@ on boot
     chown media media /sys/devices/platform/msm_sdcc.1/burst
     chown media media /proc/emmc_burst
 
-    chown system system /sys/android_touch/unlock
-
     chown radio radio /sys/class/power_supply/battery/phone_call
     chmod 0220 /sys/class/power_supply/battery/phone_call
     chown radio radio /sys/class/power_supply/battery/network_search
     chmod 0220 /sys/class/power_supply/battery/network_search
     chown system system /sys/class/power_supply/battery/navigation
     chmod 0220 /sys/class/power_supply/battery/navigation
+    
+    chown system system /sys/android_touch/doubletap2wake
+    chmod 0644 /sys/android_touch/doubletap2wake
 
     # Wake on volume
     write /sys/keyboard/vol_wakeup 1
