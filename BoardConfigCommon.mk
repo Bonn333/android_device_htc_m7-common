@@ -92,7 +92,8 @@ BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 # SELinux
 -include device/qcom/sepolicy/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += device/htc/m7-common/sepolicy
+BOARD_SEPOLICY_DIRS += \
+    device/htc/m7-common/sepolicy
 
 # Wifi
 BOARD_HOSTAPD_DRIVER             := NL80211
