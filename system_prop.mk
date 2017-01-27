@@ -52,3 +52,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Time services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
+
+# Google assistant
+ro.opa.eligible_device=true
