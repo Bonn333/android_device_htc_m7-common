@@ -53,9 +53,9 @@ PRODUCT_PACKAGES += \
 # Charger
 WITH_CM_CHARGER := false
 
-# Gello
+# SlimLauncher
 PRODUCT_PACKAGES += \
-    Gello
+    SlimLauncher
 
 # GPS
 PRODUCT_PACKAGES += \
