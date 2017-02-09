@@ -55,7 +55,9 @@ WITH_CM_CHARGER := false
 
 # SlimLauncher
 PRODUCT_PACKAGES += \
-    SlimLauncher
+    SlimLauncher \
+    TapSwitch
+
 
 # GPS
 PRODUCT_PACKAGES += \
